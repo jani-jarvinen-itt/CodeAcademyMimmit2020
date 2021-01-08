@@ -1,3 +1,4 @@
+using System;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AspNetWebApiDemo.Controllers
@@ -7,9 +8,9 @@ namespace AspNetWebApiDemo.Controllers
     public class TestController : ControllerBase
     {
         [HttpGet]
-        public string Get()
+        public string Kellonaika()
         {
-            return "Moi!";
+            return DateTime.Now.ToString();
         }
     }
 }
