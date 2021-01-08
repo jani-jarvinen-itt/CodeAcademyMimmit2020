@@ -1,0 +1,21 @@
+h1 {
+    font-size: 80px;
+}
+
+p {
+    background-color: bisque;
+}
+
+.mun-oma-tyyli {
+    margin-left: 100px;
+}
+
+#mun-oma-id-merkintä {
+    font-size: 40px;
+}
+
+/*
+body {
+    background-color: brown;
+}
+*/

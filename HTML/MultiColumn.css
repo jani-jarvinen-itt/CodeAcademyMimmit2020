@@ -1,0 +1,7 @@
+body {
+    column-count: 3;
+    column-gap: 1em;
+    column-rule-width: thin;
+    column-rule-style: solid;
+    column-rule-color: black;
+}

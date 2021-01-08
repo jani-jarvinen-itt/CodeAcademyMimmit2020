@@ -1,0 +1,13 @@
+C:\Academy\Mimmit\DotNet\PäivämääräMuodot\PäivämääräMuodot\bin\Debug\netcoreapp3.1\PäivämääräMuodot.exe
+C:\Academy\Mimmit\DotNet\PäivämääräMuodot\PäivämääräMuodot\bin\Debug\netcoreapp3.1\PäivämääräMuodot.deps.json
+C:\Academy\Mimmit\DotNet\PäivämääräMuodot\PäivämääräMuodot\bin\Debug\netcoreapp3.1\PäivämääräMuodot.runtimeconfig.json
+C:\Academy\Mimmit\DotNet\PäivämääräMuodot\PäivämääräMuodot\bin\Debug\netcoreapp3.1\PäivämääräMuodot.runtimeconfig.dev.json
+C:\Academy\Mimmit\DotNet\PäivämääräMuodot\PäivämääräMuodot\bin\Debug\netcoreapp3.1\PäivämääräMuodot.dll
+C:\Academy\Mimmit\DotNet\PäivämääräMuodot\PäivämääräMuodot\bin\Debug\netcoreapp3.1\PäivämääräMuodot.pdb
+C:\Academy\Mimmit\DotNet\PäivämääräMuodot\PäivämääräMuodot\obj\Debug\netcoreapp3.1\PäivämääräMuodot.csprojAssemblyReference.cache
+C:\Academy\Mimmit\DotNet\PäivämääräMuodot\PäivämääräMuodot\obj\Debug\netcoreapp3.1\PäivämääräMuodot.AssemblyInfoInputs.cache
+C:\Academy\Mimmit\DotNet\PäivämääräMuodot\PäivämääräMuodot\obj\Debug\netcoreapp3.1\PäivämääräMuodot.AssemblyInfo.cs
+C:\Academy\Mimmit\DotNet\PäivämääräMuodot\PäivämääräMuodot\obj\Debug\netcoreapp3.1\PäivämääräMuodot.csproj.CoreCompileInputs.cache
+C:\Academy\Mimmit\DotNet\PäivämääräMuodot\PäivämääräMuodot\obj\Debug\netcoreapp3.1\PäivämääräMuodot.dll
+C:\Academy\Mimmit\DotNet\PäivämääräMuodot\PäivämääräMuodot\obj\Debug\netcoreapp3.1\PäivämääräMuodot.pdb
+C:\Academy\Mimmit\DotNet\PäivämääräMuodot\PäivämääräMuodot\obj\Debug\netcoreapp3.1\PäivämääräMuodot.genruntimeconfig.cache

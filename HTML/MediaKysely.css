@@ -1,0 +1,39 @@
+.laatikko {
+    width: 150px;
+    height: 125px;
+    margin: 10px;
+    font-size: 40px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.laatikko-1 {
+    background-color: coral;
+}
+
+.laatikko-2 {
+    background-color: darkgoldenrod;
+}
+
+.laatikko-3 {
+    background-color: darksalmon;
+}
+
+.flex-laatikko {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 1000px) {
+    
+    .laatikko {
+        width: 300px;
+        height: 250px;
+        margin: 10px;
+    }
+
+    .flex-laatikko {
+        flex-direction: row;
+    }
+
+}
