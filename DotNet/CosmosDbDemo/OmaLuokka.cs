@@ -2,7 +2,7 @@ namespace CosmosDbDemo {
 
     public class OmaLuokka
     {
-        public int Id { get; set; }
+        public string id { get; set; }
 
         public int Luku { get; set; }
 

@@ -21,27 +21,29 @@ namespace CosmosDbDemo
         static async Task Main(string[] args)
         {
             Console.WriteLine("Aloitetaan Cosmos DB -tietokannan käsittely.");
+            cosmosClient = new CosmosClient(EndpointUrl, PrimaryKey);
 
             database = await cosmosClient.CreateDatabaseIfNotExistsAsync("Mimmit2021");
             Console.WriteLine("Tietokanta avattu: {0}", database.Id);
 
-            container = await database.CreateContainerIfNotExistsAsync("Testi", "/Id");
+            container = await database.CreateContainerIfNotExistsAsync("Testi", "/id");
             Console.WriteLine("Tallennuspaikka avattu: {0}", container.Id);
 
             OmaLuokka data = new OmaLuokka()
             {
-                Id = 10000,
+                id = "10000",
                 Luku = 1234,
                 Nimi = "Maija Möttönen",
                 Taulukko = new int[] { 9, 8, 7, 6, 5 }
             };
 
             ItemResponse<OmaLuokka> vastaus = await container.CreateItemAsync<OmaLuokka>(
-                data, new PartitionKey(data.Id));
+                data, new PartitionKey(data.id));
 
             Console.WriteLine("Tallennettu data tietokantaan: {0}. Resurssikulutus: {1} RU:ta.",
-                vastaus.Resource.Id, vastaus.RequestCharge);
+                vastaus.Resource.id, vastaus.RequestCharge);
 
+            Console.WriteLine("Sovelluksen suoritus päätty.");
         }
     }
 }
