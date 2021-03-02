@@ -9,3 +9,7 @@
 /DotNet/AzureWebAppDemo/.vs/AzureWebAppDemo
 /DotNet/AzureWebAppDemo/AzureWebAppDemo/bin/Debug/net5.0
 /DotNet/AzureWebAppDemo/AzureWebAppDemo/obj
+/DotNet/AzureWebAppDemo/AzureWebAppDemo/bin/Release/net5.0
+/DotNet/CosmosDbDemo/.vscode
+/DotNet/CosmosDbDemo/bin/Debug/net5.0
+/DotNet/CosmosDbDemo/obj
